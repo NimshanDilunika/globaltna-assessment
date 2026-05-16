@@ -25,7 +25,7 @@
 8. [Project Structure](#8-project-structure)
 9. [Features](#9-features)
 10. [Contact Information](#10-contact-information)
-11. [Licence](#11-licence)
+
 
 ---
 
