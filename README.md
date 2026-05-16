@@ -46,11 +46,7 @@ Homeowners often need quick access to tradespeople for common jobs such as plumb
 - **Manage Status:** Enable status updates (Open → In Progress → Closed) directly from the job detail page.
 - **Clean Architecture:** Maintain a clear separation between the Next.js frontend and the Express REST API backend.
 
-### Target Users
 
-- **Homeowners** — post service requests and track their status.
-- **Tradespeople** — browse available jobs and update their progress.
-- **Administrators** — manage and delete outdated or completed requests.
 
 ---
 
