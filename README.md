@@ -133,7 +133,7 @@ The system follows a decoupled three-tier architecture with the frontend, backen
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/globaltna-assessment.git
+git clone https://github.com/NimshanDilunika/globaltna-assessment.git
 cd globaltna-assessment
 ```
 
@@ -261,36 +261,6 @@ Base URL: `http://localhost:5000`
 | `PATCH` | `/api/jobs/:id` | Update job status only | Body: `{ status: "In Progress" }` |
 | `DELETE` | `/api/jobs/:id` | Delete a job | — |
 
-### Example Request — Create a Job
-
-```bash
-curl -X POST http://localhost:5000/api/jobs \
-  -H "Content-Type: application/json" \
-  -d '{
-    "title": "Leaking kitchen tap",
-    "description": "Dripping tap needs washer replaced",
-    "category": "Plumbing",
-    "location": "Glasgow",
-    "contactName": "Alice Brown",
-    "contactEmail": "alice@example.com"
-  }'
-```
-
-### Example Response
-
-```json
-{
-  "_id": "6507abc123def456ghi789",
-  "title": "Leaking kitchen tap",
-  "description": "Dripping tap needs washer replaced",
-  "category": "Plumbing",
-  "location": "Glasgow",
-  "contactName": "Alice Brown",
-  "contactEmail": "alice@example.com",
-  "status": "Open",
-  "createdAt": "2026-05-15T10:30:00.000Z"
-}
-```
 
 ### HTTP Status Codes Used
 
@@ -376,32 +346,9 @@ globaltna-assessment/
 
 | Name | Email |
 |------|-------|
-| Your Name | your.email@example.com |
+| Your Name | your.nimshandilunika.com |
 
 ---
 
-## 11. Licence
 
-**MIT Licence**
-
-Copyright (c) 2026
-
-```
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 ```
